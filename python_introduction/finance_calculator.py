@@ -5,7 +5,7 @@ print("Welcome to the finance management program.\nMay I ask what you would like
 
 monthly_income = int(input("Enter your monthly income: "))
 monthly_expense = int(input("Enter your total monthly expense: "))
-monthly_savings =  monthly_income - monthly_expense
+monthly_savings =  float(monthly_income) - float(monthly_expense)
 
 print("Your monthly savings are kes",monthly_savings)
 
