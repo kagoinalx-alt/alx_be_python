@@ -3,9 +3,9 @@ name = input("Hey what's your name? ")
 print("Hello!",name,)
 print("Welcome to the finance management program.\nMay I ask what you would like to start with?")
 
-income = int(input("Enter your monthly income: "))
-expense = int(input("Enter your total monthly expense: "))
-monthly_savings = income - expense
+monthly_income = int(input("Enter your monthly income: "))
+monthly_expense = int(input("Enter your total monthly expense: "))
+monthly_savings =  monthly_income - monthly_expense
 
 print("Your monthly savings are kes",monthly_savings)
 
