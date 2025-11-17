@@ -1,5 +1,5 @@
 hours = 2
-seconds = 3600
-hours_to_seconds = hours * seconds
+seconds = hours * 3600
+hours_to_seconds = hours * 3600
 
-print(hours, "hours is", hours_to_seconds)
+print(hours, "hours is", hours_to_seconds,"seconds")
