@@ -1,4 +1,4 @@
-weather = input("What's the weather like today? (sunny/rainy/cold)").title()
+weather = input("What's the weather like today? (sunny/rainy/cold)")
 
 if weather == "Sunny":
     print("Recommended: Wear a t-shirt and sunglasses.")
