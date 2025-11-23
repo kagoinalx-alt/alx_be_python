@@ -1,9 +1,9 @@
 # Personal Daily Reminder
 
-task = input("Input the task description: ")
-priority = input(
-    "What is the priority level for the task? (high, medium, low): ")
-time_bound = input("Is the task time bound? (yes or no): ")
+task = input("Enter your task:")
+time_bound = input("Is it time-bound? (yes/no):")
+priority = input("Priority (high/medium/low):")
+
 
 match priority:
     case "high":
