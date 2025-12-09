@@ -1,6 +1,6 @@
 # Implement functionality to add items to the list, remove items, and display the current list.
 def display_menu():
-    print("Shooping list manager")
+    print("Shopping List Manager")
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View List")
