@@ -9,9 +9,6 @@ if __name__ == "__main__":
     display_current_datetime()
 
 
-days = int(input("Enter number of days to add to the current date:"))
-
-
 def calculate_future_date(days_to_add):
     from datetime import datetime, timedelta
     current_date = datetime.now()
