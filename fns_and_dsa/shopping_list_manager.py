@@ -11,9 +11,9 @@ def main():
     shopping_list = []
     while True:
         display_menu()
-        choice = input("Enter your choice: ")
+        choice = input("Enter your choice:[1-4] ")
         if choice == '1':
-            item = input("Ener the item you would like to add: ")
+            item = input("Enter the item you would like to add: ")
             shopping_list.append(item)
             print(f"{item}, has been added to the list.")
         elif choice == '2':
