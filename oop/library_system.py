@@ -3,15 +3,24 @@ class Book:
         self.title = title
         self.author = author
 
+    def __str__(self):
+        return f"{self.title} by {self.author}"
+
     class EBook(Book):
         def __init__(self, file_size):
             Book.__init__(self, title, author)
             self.file_size = file_size
 
+        def __str__(self):
+            return f"{self.title} by {self.author}, File Size: {self.file_size}MB"
+
     class PrintBook(Book):
         def __init__(self, page_count):
             Book.__init__(self, title, author)
             self.page_count = page_count
+
+        def __str__(self):
+            return f"{self.title} by {self.author}, Pages: {self.page_count}"
 
 
 class Library:
